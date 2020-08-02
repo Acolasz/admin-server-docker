@@ -1,0 +1,5 @@
+*.jar
+cllib$py*
+__pycache__/*
+wlst-script/__pycache__/
+wlst-script/*$py.class
