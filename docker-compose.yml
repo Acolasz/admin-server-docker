@@ -1,0 +1,7 @@
+version: "3.6"
+services:
+  admin-server:
+    image: acolasz/${APP_NAME}:${APP_VERSION}
+    container_name: admin_server
+    ports:
+      - 9000:9000
