@@ -4,6 +4,7 @@ usage() {
 cat << EOF
 Usage: for Docker build needs a "${ENV_FILE}" file and it contents following for example:
 --------------
+U_VERSION=211
 APP_VERSION=1.0.0
 --------------
 EOF

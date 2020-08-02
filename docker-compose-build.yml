@@ -1,8 +1,10 @@
 version: "3.6"
 services:
-  weblogic-server:
-    image: acolasz/java-base:1.8.211
+  admin-server:
+    image: acolasz/${APP_NAME}:${APP_VERSION}
     build:
       context: .
       args:
+        app_name: "${APP_NAME}"
         app_version: "${APP_VERSION}"
+        u_version: "${U_VERSION}"
